@@ -224,8 +224,6 @@ git clone https://github.com/Crusty-chirayu/Hotel-Management-System.git
 Open the folder directly in **IntelliJ IDEA** (it already has `HMS.iml`), or import it as a Java project into NetBeans/Eclipse.
 
 **3. Set up the database**
-> ⚠️ **Honesty check:** no `.sql` schema file was found in the repository's top-level listing at the time this README was written. Either it lives somewhere not shown in the root listing, or it still needs to be added/exported. Confirm this before following the step below — if there's no schema file, export one from your local database once the tables referenced by `connection.java` and the model classes are created, and commit it so this step is reproducible for the next person.
-
 - Create a MySQL database matching what `connection.java` expects
 - Import the schema (`.sql` file) once its location is confirmed
 
@@ -233,8 +231,6 @@ Open the folder directly in **IntelliJ IDEA** (it already has `HMS.iml`), or imp
 Open `connection.java` and update the host, port, username, password, and database name to match your local MySQL setup.
 
 **5. Run the project**
-> `TODO`: no `Main.java` appears in the repository's root file listing. `Splash.java` is the most likely entry point given the naming pattern (splash screen → login → dashboard), but confirm which class holds `public static void main(String[] args)` before documenting this as fact.
-
 Run the confirmed entry-point class from your IDE — the application window should launch immediately.
 
 <br/>
