@@ -346,7 +346,11 @@ MIT — see [`LICENSE`](LICENSE) for details.
 
 ⭐ **If this project helped you, consider giving it a star!** ⭐
 
-<sub>No star-history chart here on purpose — GitHub has been restricting third-party access to stargazer history data, which breaks those charts. A static star count badge (above) doesn't depend on that endpoint, so it's used instead.</sub>
+### ⭐ Star History
+
+<a href="https://star-history.com/#Crusty-chirayu/Face-Recognition&Date">
+  <img src="https://api.star-history.com/svg?repos=Crusty-chirayu/Face-Recognition&type=Date" width="500"/>
+</a>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:D4AF37,50:B45309,100:7C2D12&height=120&section=footer" width="100%"/>
 
